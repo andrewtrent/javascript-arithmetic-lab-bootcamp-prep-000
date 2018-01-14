@@ -8,14 +8,15 @@ function multiply(a, b){
   return a*b;
 }
 function divide(a, b){
-  return a/b;inc('147')
+  return a/b;
 }
 function inc(n){
-  
-  return n++;
+  var nfoo = n
+  return nfoo++;
 }
 function dec(n){
-  return n--;
+  var nbar = nbar
+  return nbar--;
 }
 function makeInt(n){
   return parseInt(n, 10);
