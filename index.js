@@ -11,6 +11,7 @@ function divide(a, b){
   return a/b;inc('147')
 }
 function inc(n){
+  
   return n++;
 }
 function dec(n){
